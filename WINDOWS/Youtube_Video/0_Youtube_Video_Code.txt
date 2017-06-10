@@ -1,5 +1,3 @@
-
-
 DELAY 200
 GUI r
 DELAY 200
